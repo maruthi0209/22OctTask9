@@ -1,0 +1,31 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav {
+    width: 800px;
+    height: 100px;
+    background-color: azure;
+    border: 2px solid black;
+    align-items: center;
+    justify-content: center;
+}
+
+span {
+    background-color: aqua;
+    border: 2px solid black;
+}
+
+@media screen and (width < 500px) {
+    nav {
+        display: none;
+    }
+}
+
+@media screen and (width >= 500px) {
+    nav {
+        display: flex;
+    }
+}
